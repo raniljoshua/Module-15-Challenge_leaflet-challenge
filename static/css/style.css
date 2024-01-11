@@ -8,3 +8,49 @@ body,
 html {
   height: 100%;
 }
+
+/* .info {
+  padding: 1px 10px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+.info h4 {
+  margin: 0 0 5px;
+  color: #777;
+} */
+
+/* Legend specific style found: https://codepen.io/haakseth/pen/KQbjdO */
+.legend {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  /* box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px; */
+  line-height: 24px;
+  color: #555;
+}
+
+.legend h3 {
+  text-align: center;
+  font-size: 16px;
+  margin: 2px 12px 8px;
+  color: #777;
+}
+
+.legend span {
+  position: relative;
+  bottom: 3px;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  opacity: 0.75;
+}
